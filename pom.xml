@@ -119,8 +119,8 @@
         </dependency>
         <dependency>
             <groupId>com.github.fwilhe.inzell</groupId>
-            <artifactId>Inzell-jvm</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-        </dependency>
+            <artifactId>inzell-jvm</artifactId>
+            <version>0.0.1.norelease</version>
+          </dependency>
     </dependencies>
 </project>
