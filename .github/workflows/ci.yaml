@@ -12,4 +12,8 @@ jobs:
         with:
           java-version: 14
       - name: Run
-        run: mvn package exec:java
+        run: |
+          echo $SETTINGS_XML | base64 -d > settings.xml
+          mvn -s settings.xml package exec:java
+        env:
+          SETTINGS_XML: ${{ secrets.SETTINGSXML }}
