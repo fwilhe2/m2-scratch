@@ -15,30 +15,6 @@
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>mavenCentral</id>
-            <url>https://repo1.maven.org/maven2/</url>
-        </repository>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>bintray-kotlin-kotlinx.html</id>
-            <name>bintray</name>
-            <url>https://dl.bintray.com/kotlin/kotlinx.html</url>
-        </repository>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>kotlinx</id>
-            <name>kotlinx</name>
-            <url>https://kotlin.bintray.com/kotlinx/</url>
-        </repository>
-    </repositories>
-
-
     <build>
         <sourceDirectory>src/main/kotlin</sourceDirectory>
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
@@ -117,9 +93,9 @@
             <version>1.4.21</version>
         </dependency>
         <dependency>
-            <groupId>com.github.fwilhe.inzell</groupId>
-            <artifactId>inzell-jvm</artifactId>
-            <version>0.0.1</version>
+          <groupId>com.github.fwilhe.inzell</groupId>
+          <artifactId>inzell-jvm</artifactId>
+          <version>0.0.1-no-datetime</version>
         </dependency>
     </dependencies>
 </project>
