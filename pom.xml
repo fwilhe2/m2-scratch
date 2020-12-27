@@ -95,7 +95,7 @@
         <dependency>
           <groupId>com.github.fwilhe.inzell</groupId>
           <artifactId>inzell-jvm</artifactId>
-          <version>0.0.1-no-datetime</version>
+          <version>0.0.2</version>
         </dependency>
     </dependencies>
 </project>
